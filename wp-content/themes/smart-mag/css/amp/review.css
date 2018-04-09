@@ -1,0 +1,209 @@
+/**
+ * Reviews for AMP
+ */
+.review-box {
+  background: #f2f2f2;
+  border-left: 3px solid #eee;
+  padding: 10px 15px 0 15px;
+  font-size: 13px;
+}
+
+.review-box .heading {
+  font-size: 16px;
+  font-weight: normal;
+  border-left: 3px solid #e53e54;
+  margin-left: -18px;
+  padding-left: 15px;
+  line-height: 2;
+  margin-bottom: 20px;
+  /* line-height adds 8px */
+}
+
+.review-box .verdict-box {
+  overflow: hidden;
+  padding: 28px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.review-box .overall {
+  float: left;
+  background: #e54e53;
+  color: #fff;
+  padding: 10px 8px;
+  min-width: 115px;
+  text-align: center;
+}
+
+.review-box .overall .number {
+  display: block;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.review-box .overall .best {
+  display: none;
+}
+
+.review-box .overall .percent {
+  font-size: 25px;
+}
+
+.review-box .overall .verdict {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.review-box .verdict-box .text {
+  margin-left: 150px;
+}
+
+.review-box ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 28px 0;
+}
+
+.review-box li {
+  margin-bottom: 15px;
+}
+
+.review-box .label {
+  text-transform: uppercase;
+}
+
+.review-box .criterion {
+  overflow: hidden;
+  line-height: 2;
+}
+
+.review-box ul .rating {
+  float: right;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.review-box .rating-bar,
+.review-box .bar {
+  background: #fff;
+  height: 21px;
+}
+
+.review-box .bar {
+  background: #e54e53;
+  display: block;
+}
+
+.post-content > .review-box {
+  margin-bottom: 28px;
+  margin-left: -18px;
+  margin-right: -18px;
+}
+
+.review-box.stars li:first-child {
+  margin-top: -28px;
+}
+
+.review-box.stars li {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.review-box .overall-stars {
+  display: block;
+  height: 15px;
+  text-align: center;
+}
+
+.review-box .overall-stars .main-stars {
+  float: none;
+  max-width: 6em;
+  margin: 0 auto;
+  margin-top: 14px;
+  font-size: 15px;
+  color: #ec9494;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+.review-box .overall-stars .main-stars span:before {
+  color: #fff;
+}
+
+.review-box .main-stars {
+  float: right;
+  font-size: 17px;
+  margin-top: 5px;
+  display: block;
+  padding-right: 1px;
+  color: #d9d9d9;
+}
+
+.review-box .main-stars:before,
+.review-box .main-stars span:before {
+  margin-right: -4px;
+  letter-spacing: 5px;
+}
+
+.review-box .main-stars:before {
+  content: "\f005\f005\f005\f005\f005";
+}
+
+/* Main stars for ratings */
+.main-stars {
+  position: relative;
+  font-size: 13px;
+  line-height: 1;
+  height: 1em;
+  color: #e54e53;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.main-stars span {
+  color: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 2em;
+  overflow: hidden;
+}
+
+.main-stars:before,
+.main-stars span:before {
+  content: "\f005\f005\f005\f005\f005";
+  color: inherit;
+  letter-spacing: 2px;
+  margin-right: -2px;
+  display: block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-stars:before {
+  content: "\f006\f006\f006\f006\f006";
+}
+
+.main-stars span:before {
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: #e54e53;
+}
+
+/* User ratings */
+.user-ratings .votes {
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}

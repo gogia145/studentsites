@@ -1,0 +1,121 @@
+/*
+Theme Name: Smart Mag Child
+Theme URI: http://theme-sphere.com/
+Description: A child theme of SmartMag
+Author: ThemeSphere
+Author URI: http://theme-sphere.com
+Template: smart-mag
+Version: 1.0
+*/
+
+@import url("../smart-mag/style.css");
+/* 20-2-18*/
+.fed_login_container .col-md-offset-3 {
+    margin: 0 !important;
+}
+.custom-submit-text span {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+.main-head .right select{
+background-color:#4f4f91;
+color:#fff;
+}
+
+
+.mid-menu ul li a {
+    color: #3e3e3e;
+    font-weight: 600;
+    font-size: 12px;
+}
+.mid-menu ul li a:hover {
+    color: #4f4f91;
+}
+
+.mid-menu ul li {
+    display: inline-block;
+    padding: 0 9px;
+    text-transform: uppercase;
+}
+.mid-menu {
+    display: inline-block;
+    width: 67%;
+    text-align: right;
+}
+
+.main-head .right {
+    line-height: 146px;
+    display: inline-block;
+    float: right;
+}
+
+.nav-light .menu  li  a {
+	padding: 0 21px;
+}
+
+.main-nav .menu-main-menu-container .menu .current-menu-item .myanchor  {
+    background-color: #4E4E91 !important;
+    color: #fff !important;
+	    border-color: #4E4E91 !important;
+}
+
+.top-bar .mid-menu.mid-menu-mobile {
+    display:none;
+}
+
+.main-head .mid-menu.mid-menu-mobile {
+    display: none;
+}
+
+
+
+@media only screen and (max-width : 1199px) {
+	
+.main-head .tech .right {
+    margin-left: 0;
+}
+.mid-menu {
+    width: 53%;
+}	
+
+}	
+
+
+@media only screen and (max-width : 799px) {
+.has-mobile-head .top-bar {
+    display: inline-block !important;
+	width: 100%;
+}
+.top-bar .mid-menu.mid-menu-mobile {
+    width: 100%;
+	 display:inline-block;
+}
+
+.top-bar .mid-menu.mid-menu-mobile a {
+font-weight: 400;
+}
+.trending-ticker a {
+    padding-right: 0;
+    margin-top: 0;
+}
+.main-head .mid-menu.mid-menu-mobile {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+}
+
+.post-content > p {
+    font-size: 1.0769em;
+    color: #3a4149;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,651 @@
+# Copyright (C) 2017 ThemeSphere
+# This file is distributed under the Themeforest Split Licence.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartMag 3.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/bunyad\n"
+"POT-Creation-Date: 2017-11-16 19:10:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:8
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:16
+msgid "Page Not Found!"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"We're sorry, but we can't find the page you were looking for. It's probably "
+"some thing we've done wrong but now we know about it and we'll try to fix "
+"it. In the meantime, try one of these options:"
+msgstr ""
+
+#: 404.php:21
+msgid "Go to Previous Page"
+msgstr ""
+
+#: 404.php:22
+msgid "Go to Homepage"
+msgstr ""
+
+#: admin/options.php:325
+msgid "Trending"
+msgstr ""
+
+#: amp/footer.php:6
+msgid "Back to top"
+msgstr ""
+
+#: amp/header-bar.php:16 partials/header/nav.php:68
+msgid "Navigate"
+msgstr ""
+
+#: amp/meta.php:23 inc/blocks-helpers.php:126
+#: partials/single/classic-title-meta.php:28
+#: partials/single/layout-cover.php:89 partials/single/layout-modern.php:40
+msgctxt "Post Meta"
+msgid "By"
+msgstr ""
+
+#: amp/single.php:58
+msgid "Write a Comment"
+msgstr ""
+
+#: archive.php:67 archive.php:75 archive.php:83
+msgid "Browsing: %s"
+msgstr ""
+
+#: archive.php:91
+msgid "Search Results: %s (%d)"
+msgstr ""
+
+#: archive.php:97
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:99
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:101
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: author.php:26
+msgid "Author %s"
+msgstr ""
+
+#: authors.php:63
+msgid "Browse Author Articles"
+msgstr ""
+
+#: authors.php:64
+msgid "%s Articles"
+msgstr ""
+
+#: bbpress/auth-modal.php:7
+msgid "Sign In"
+msgstr ""
+
+#: bbpress/auth-modal.php:16 bbpress/auth-modal.php:39
+#: bbpress/auth-modal.php:144
+msgid "Log In"
+msgstr ""
+
+#: bbpress/auth-modal.php:21 bbpress/auth-modal.php:149
+msgctxt "bbPress"
+msgid "Your Username"
+msgstr ""
+
+#: bbpress/auth-modal.php:27
+msgctxt "bbPress"
+msgid "Your Password"
+msgstr ""
+
+#: bbpress/auth-modal.php:33 bbpress/auth-modal.php:34
+msgid "Lost password?"
+msgstr ""
+
+#: bbpress/auth-modal.php:49
+msgctxt "bbPress"
+msgid "Don't have an account?"
+msgstr ""
+
+#: bbpress/auth-modal.php:50
+msgctxt "bbPress"
+msgid "Register Now!"
+msgstr ""
+
+#: bbpress/auth-modal.php:60 bbpress/auth-modal.php:90
+msgctxt "bbPress"
+msgid "Welcome back, "
+msgstr ""
+
+#: bbpress/auth-modal.php:65
+msgctxt "bbPress"
+msgid "Edit Profile"
+msgstr ""
+
+#: bbpress/auth-modal.php:67
+msgctxt "bbPress"
+msgid "Subscriptions"
+msgstr ""
+
+#: bbpress/auth-modal.php:69
+msgctxt "bbPress"
+msgid "Favorites"
+msgstr ""
+
+#: bbpress/auth-modal.php:105 bbpress/auth-modal.php:112
+msgid "Recover Password"
+msgstr ""
+
+#: bbpress/auth-modal.php:117
+msgctxt "bbPress"
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/auth-modal.php:125
+msgid "Recover"
+msgstr ""
+
+#: bbpress/auth-modal.php:137 bbpress/auth-modal.php:167
+msgid "Register"
+msgstr ""
+
+#: bbpress/auth-modal.php:155
+msgctxt "bbPress"
+msgid "Your Email"
+msgstr ""
+
+#: bbpress/auth-modal.php:161
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: bbpress/form-search.php:11
+msgctxt "bbPress"
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-search.php:14
+msgctxt "bbPress"
+msgid "Search"
+msgstr ""
+
+#: bbpress/loop-forums.php:26
+msgctxt "bbPress"
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-topic.php:102
+msgctxt "bbPress"
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:27 bbpress/loop-single-topic.php:103
+msgctxt "bbPress"
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:28
+msgctxt "bbPress"
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-replies.php:15
+msgctxt "bbPress"
+msgid "Posted In: "
+msgstr ""
+
+#: bbpress/loop-search-reply.php:12
+msgctxt "bbPress"
+msgid "In reply to: "
+msgstr ""
+
+#: bbpress/loop-search-reply.php:46 bbpress/loop-search-topic.php:51
+#: bbpress/loop-single-reply.php:39
+msgctxt "bbPress Reply"
+msgid "on"
+msgstr ""
+
+#: bbpress/loop-search-reply.php:52 bbpress/loop-search-topic.php:57
+#: bbpress/loop-single-reply.php:45
+msgctxt "bbPress"
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:16
+msgctxt "bbPress"
+msgid "Topic: "
+msgstr ""
+
+#: bbpress/loop-single-forum.php:47
+msgctxt "bbpress"
+msgid "topics"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:49
+msgctxt "bbpress"
+msgid "replies"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:50
+msgctxt "bbpress"
+msgid "posts"
+msgstr ""
+
+#: bbpress/loop-single-forum.php:62
+msgctxt "bbPress Freshness Author"
+msgid "by "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:63
+msgctxt "bbPress"
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:71
+msgctxt "bbPress"
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:78
+msgctxt "bbPress"
+msgid "Last post:"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:99
+msgctxt "bbPress"
+msgid "Voices"
+msgstr ""
+
+#: blocks/mega-menu-category.php:25
+msgctxt "Categories Mega Menu"
+msgid "Featured"
+msgstr ""
+
+#: blocks/mega-menu-category.php:55
+msgctxt "Categories Mega Menu"
+msgid "Recent"
+msgstr ""
+
+#: blocks/review.php:124
+msgid "User Ratings"
+msgstr ""
+
+#: blocks/review.php:125
+msgid "%s Votes"
+msgstr ""
+
+#: comments.php:10
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:29
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:48
+msgid "Leave A Reply"
+msgstr ""
+
+#: comments.php:49
+msgid "Reply To %s"
+msgstr ""
+
+#: comments.php:53
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:58
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:62
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:64
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:70
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:76
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:83
+msgid "Your Website"
+msgstr ""
+
+#: inc/block.php:447
+msgid "All"
+msgstr ""
+
+#: inc/blocks-helpers.php:122
+msgid "Posts by %s"
+msgstr ""
+
+#: inc/navigation.php:127 partials/header/layout.php:24
+#: partials/header/nav.php:102
+msgid "Search"
+msgstr ""
+
+#: lib/core.php:351
+msgctxt "breadcrumbs"
+msgid "Home"
+msgstr ""
+
+#: lib/core.php:352
+msgid "Category: \"%s\""
+msgstr ""
+
+#: lib/core.php:353
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: lib/core.php:354
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: lib/core.php:355
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: lib/core.php:356
+msgid "Author: %s"
+msgstr ""
+
+#: lib/core.php:357
+msgid "Error 404"
+msgstr ""
+
+#: lib/core.php:366
+msgid "You are at:"
+msgstr ""
+
+#: lib/core.php:600
+msgid "Page"
+msgstr ""
+
+#: lib/posts.php:336
+msgctxt "pagination"
+msgid "Next"
+msgstr ""
+
+#: lib/posts.php:337
+msgctxt "pagination"
+msgid "Previous"
+msgstr ""
+
+#: lib/posts.php:475
+msgid "Read More"
+msgstr ""
+
+#: loop-alt.php:84 loop-classic.php:56 loop-grid-overlay.php:118 loop.php:114
+msgid "Nothing Found!"
+msgstr ""
+
+#: loop-alt.php:85 loop-classic.php:57 loop-grid-overlay.php:119
+#: loop-timeline.php:85 loop.php:115
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: loop-timeline.php:81
+msgid "Nothing Found"
+msgstr ""
+
+#: partial-comment.php:24
+msgid "Pingback:"
+msgstr ""
+
+#: partial-comment.php:24 partial-comment.php:47
+msgid "Edit"
+msgstr ""
+
+#: partial-comment.php:42
+msgid "on"
+msgstr ""
+
+#: partial-comment.php:43
+msgid " at "
+msgstr ""
+
+#: partial-comment.php:54
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: partial-comment.php:61
+msgid "Reply"
+msgstr ""
+
+#: partials/author.php:19
+msgid "Website"
+msgstr ""
+
+#: partials/author.php:20 partials/single/social-share.php:18
+msgid "Facebook"
+msgstr ""
+
+#: partials/author.php:21 partials/single/social-share.php:15
+msgid "Twitter"
+msgstr ""
+
+#: partials/author.php:22 partials/single/social-share-b.php:25
+#: partials/single/social-share.php:21
+msgid "Google+"
+msgstr ""
+
+#: partials/author.php:23 partials/single/social-share-b.php:38
+#: partials/single/social-share.php:30
+msgid "LinkedIn"
+msgstr ""
+
+#: partials/header/search.php:13
+msgid "Search..."
+msgstr ""
+
+#: partials/live-search.php:20
+msgid "Sorry, no results!"
+msgstr ""
+
+#: partials/live-search.php:57
+msgid "See All Results"
+msgstr ""
+
+#: partials/pagination-next.php:14
+msgid "Showing %s of %s"
+msgstr ""
+
+#: partials/pagination-next.php:21
+msgid "Next"
+msgstr ""
+
+#: partials/pagination-next.php:22
+msgid "Prev"
+msgstr ""
+
+#: partials/single/author-box.php:10
+msgid "About Author"
+msgstr ""
+
+#: partials/single/classic-title-meta.php:32
+#: partials/single/layout-cover.php:93
+msgctxt "Post Meta"
+msgid "on"
+msgstr ""
+
+#: partials/single/classic-title-meta.php:39
+msgid ", "
+msgstr ""
+
+#: partials/single/layout-cover.php:102
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: partials/single/post-navigation.php:12
+msgid "Previous Article"
+msgstr ""
+
+#: partials/single/post-navigation.php:16
+msgid "Next Article"
+msgstr ""
+
+#: partials/single/related-posts.php:20
+msgid "%sRelated%s Posts"
+msgstr ""
+
+#: partials/single/social-share-b.php:13
+msgid "Share"
+msgstr ""
+
+#: partials/single/social-share-b.php:19
+msgid "Tweet"
+msgstr ""
+
+#: partials/single/social-share-b.php:31 partials/single/social-share.php:26
+msgid "Pinterest"
+msgstr ""
+
+#: partials/single/social-share-b.php:44 partials/single/social-share.php:34
+msgid "Tumblr"
+msgstr ""
+
+#: partials/single/social-share-b.php:50 partials/single/social-share.php:38
+msgid "Email"
+msgstr ""
+
+#: partials/single/social-share.php:10
+msgid "Share."
+msgstr ""
+
+#: partials/single/social-share.php:14
+msgid "Tweet It"
+msgstr ""
+
+#: partials/single/social-share.php:17
+msgid "Share on Facebook"
+msgstr ""
+
+#: partials/single/social-share.php:20
+msgid "Share on Google+"
+msgstr ""
+
+#: partials/single/social-share.php:25
+msgid "Share on Pinterest"
+msgstr ""
+
+#: partials/single/social-share.php:29
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: partials/single/social-share.php:33
+msgid "Share on Tumblr"
+msgstr ""
+
+#: partials/single/social-share.php:37
+msgid "Share via Email"
+msgstr ""
+
+#: sidebar.php:24
+msgid "<li>Nothing yet.</li>"
+msgstr ""
+
+#: sitemap.php:60
+msgid "Pages"
+msgstr ""
+
+#: sitemap.php:67
+msgid "Categories"
+msgstr ""
+
+#: sitemap.php:77
+msgid "Recent Posts"
+msgstr ""
+
+#: sitemap.php:96
+msgid "Archives"
+msgstr ""
+
+#: woocommerce/init.php:149
+msgctxt "woocommerce"
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/init.php:149
+msgctxt "woocommerce"
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/init.php:150
+msgctxt "woocommerce"
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/init.php:298
+msgid "Shopping Cart"
+msgstr ""
+
+#: woocommerce/init.php:320
+msgid "WooCommerce"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:12
+msgctxt "woocommerce"
+msgid "Product Description"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "SmartMag"
+msgstr ""
+
+#. #-#-#-#-#  smart-mag.pot (SmartMag 3.1.1)  #-#-#-#-#
+#. Theme URI of the plugin/theme
+#. #-#-#-#-#  smart-mag.pot (SmartMag 3.1.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://theme-sphere.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Designed by <a href=\"http://theme-sphere.com\">ThemeSphere</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSphere"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Authors List"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage & Blocks (Advanced)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Sitemap"
+msgstr ""

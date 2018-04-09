@@ -1,0 +1,1341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ss3\n"
+"POT-Creation-Date: 2018-02-20 09:24+0100\n"
+"PO-Revision-Date: 2018-02-20 09:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: Z:/ramona/wordpress4_2_2/wp-content/plugins\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_x:1,2c;esc_html_e\n"
+"X-Poedit-SearchPath-0: nextend-social-connect-pro-new\n"
+"X-Poedit-SearchPath-1: nextend-facebook-connect-new\n"
+"X-Poedit-SearchPathExcluded-0: nextend-facebook-connect-new/providers/"
+"twitter/compat\n"
+"X-Poedit-SearchPathExcluded-1: nextend-facebook-connect-new/providers/google/"
+"compat\n"
+"X-Poedit-SearchPathExcluded-2: nextend-facebook-connect-new/providers/"
+"facebook/compat\n"
+
+#: nextend-facebook-connect-new/admin/admin.php:133
+#, php-format
+msgid "%s needs the CURL PHP extension."
+msgstr "A %s-nak szüksége van a CURL PHP kiegészítőre."
+
+#: nextend-facebook-connect-new/admin/admin.php:133
+#: nextend-facebook-connect-new/admin/admin.php:138
+#: nextend-facebook-connect-new/admin/admin.php:148
+msgid "Please contact your server administrator and ask for solution!"
+msgstr ""
+"Kérlek lépj kapcsolatba a szerveradminisztrátorral és kérj tőle segítséget!"
+
+#: nextend-facebook-connect-new/admin/admin.php:138
+msgid "Https protocol is not supported or disabled in CURL."
+msgstr "A HTTPS protokol nincs támogat a CURL-ben vagy ki van kapcsolva."
+
+#: nextend-facebook-connect-new/admin/admin.php:148
+#, php-format
+msgid "%s needs json_decode function."
+msgstr "A %s-nak szüksége van a json_decode függvényre."
+
+#: nextend-facebook-connect-new/admin/admin.php:166
+#: nextend-facebook-connect-new/admin/admin.php:206
+msgid "Settings saved."
+msgstr "Beállítások elmentve."
+
+#: nextend-facebook-connect-new/admin/admin.php:174
+msgid "The authorization was successful"
+msgstr "Az engedélyezés sikeres volt"
+
+#: nextend-facebook-connect-new/admin/admin.php:185
+msgid "Deauthorize completed."
+msgstr "A engedély visszavonása befejeződött."
+
+#: nextend-facebook-connect-new/admin/admin.php:297
+#: nextend-facebook-connect-new/admin/templates-provider/menu.php:10
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:95
+#: nextend-facebook-connect-new/admin/templates/providers.php:78
+#: nextend-facebook-connect-new/admin/templates/providers.php:90
+msgid "Settings"
+msgstr "Beállítások"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:72
+msgid "Login label"
+msgstr "Bejelentkezés felirat"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:77
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:88
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:99
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:128
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:158
+msgid "Reset to default"
+msgstr "Alapbeállítás visszaállítása"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:82
+msgid "Link label"
+msgstr "Profil kapcsolás felirat"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:94
+msgid "Unlink label"
+msgstr "Profile szétkapcsolás felirat"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:105
+msgid "Default button"
+msgstr "Alap gomb"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:121
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:151
+msgid "Use custom button"
+msgstr "Egyedi gomb használata"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:128
+#, php-format
+msgid "Use the %s in your custom button's code to make the label show up."
+msgstr "Használd a %s azonosítót, hogy megfelenjen a gomb felirat."
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:136
+msgid "Icon button"
+msgstr "Ikon gomb"
+
+#: nextend-facebook-connect-new/admin/templates-provider/buttons.php:167
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:122
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:208
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:103
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:48
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:47
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:46
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:45
+msgid "Save Changes"
+msgstr "Változtatások Mentése"
+
+#: nextend-facebook-connect-new/admin/templates-provider/menu.php:8
+#: nextend-facebook-connect-new/admin/templates/providers.php:58
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:7
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:7
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:6
+msgid "Getting Started"
+msgstr "Első Lépések"
+
+#: nextend-facebook-connect-new/admin/templates-provider/menu.php:12
+msgid "Buttons"
+msgstr "Gombok"
+
+#: nextend-facebook-connect-new/admin/templates-provider/menu.php:14
+msgid "Usage"
+msgstr "Használat"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:16
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:14
+msgid "PRO settings"
+msgstr "PRO beállítások"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:26
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:30
+msgid "Ask E-mail on registration"
+msgstr "E-mail kérésére regisztrációkor"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:33
+msgid "Never"
+msgstr "Soha"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:36
+msgid "When email is not provided or empty"
+msgstr "Amikor a e-mail cím nem elérhető"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:39
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:54
+msgid "Always"
+msgstr "Mindig"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:44
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:48
+msgid "Ask Username on registration"
+msgstr "Felhasználónév kérése regisztrációkor"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:51
+msgid "Never, generate automatically"
+msgstr "Soha, automata generálás"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:59
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:63
+msgid "Automatically connect the existing account upon registration"
+msgstr "Fiók csatlakoztatása, ha regisztráció esetén már létezik a fiók"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:67
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:50
+#: nextend-facebook-connect-new/admin/templates/providers.php:33
+#: nextend-facebook-connect-new/includes/provider.php:888
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:70
+msgid "Automatic, based on email address"
+msgstr "Automatán, e-mail cím egyezés esetén"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:75
+msgid "Disable login for the selected roles"
+msgstr "Bejelntkezés kikapcsolása a kijelölt szerepköröknek"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:95
+msgid "Default roles for user who registered with this provider"
+msgstr "Alap szerepkör, aki ezzel a szolgáltatóval registrál"
+
+#: nextend-facebook-connect-new/admin/templates-provider/settings-pro.php:103
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:31
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:107
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:192
+#: nextend-facebook-connect-new/widget.php:34
+msgid "Default"
+msgstr "Alapbeállítás"
+
+#: nextend-facebook-connect-new/admin/templates-provider/usage.php:7
+msgid "Shortcode"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates-provider/usage.php:21
+msgid "Simple link"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates-provider/usage.php:24
+msgid "Click here to login or register"
+msgstr "Kattints ide a belépéshez vagy a regisztrációhoz"
+
+#: nextend-facebook-connect-new/admin/templates-provider/usage.php:29
+msgid "Image button"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates-provider/usage.php:32
+msgid "Image url"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:23
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:27
+msgid "Login form button style"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:37
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:113
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:198
+#: nextend-facebook-connect-new/widget.php:39
+msgid "Icon"
+msgstr "Imon"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:44
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:48
+msgid "Login layout"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:52
+msgid "Below"
+msgstr "Alul"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:58
+msgid "Below with separator"
+msgstr "Alul, elválasztóval"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:64
+msgid "Below and floating"
+msgstr "Alul lebegve"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:70
+msgid "Above"
+msgstr "Felül"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:76
+msgid "Above with separator"
+msgstr "Felül, elválasztóval"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:83
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:87
+msgid "Comment login button"
+msgstr "Belépés gomb a kommenteknél"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:90
+msgid "Show"
+msgstr "Megjelenít"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:93
+msgid "Hide"
+msgstr "Elrejt"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:95
+#, php-format
+msgid "You need to turn on the ' %1$s > %2$s > %3$s ' for this feature to work"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:95
+msgid "Discussion"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:95
+msgid "Users must be registered and logged in to comment"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:99
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:103
+msgid "Comment button style"
+msgstr "Gomb stílusa a kommenteknél"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:120
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:124
+msgid "WooCommerce login form"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:127
+msgid "No Connect button in login form"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:130
+msgid "Connect button before login form"
+msgstr "Belépés gomb a belépési űrlap előtt"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:131
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:136
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:154
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:159
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:173
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:178
+msgid "Action:"
+msgstr "Action:"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:135
+msgid "Connect button after login form"
+msgstr "Belépés gomb a belépési űrlap után"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:143
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:147
+msgid "WooCommerce billing form"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:150
+msgid "No Connect button in billing form"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:153
+msgid "Connect button before billing form"
+msgstr "Belépés gomb a számlázási űrlap előtt"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:158
+msgid "Connect button after billing form"
+msgstr "Belépés gomb a számlázási űrlapon"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:165
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:169
+msgid "WooCommerce account details"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:172
+msgid "Link buttons before account details"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:177
+msgid "Link buttons after account details"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:184
+#: nextend-facebook-connect-new/admin/templates/global-settings-pro.php:188
+msgid "WooCommerce button style"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:43
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:47
+msgid "Debug mode"
+msgstr "Debug mód"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:53
+#: nextend-facebook-connect-new/admin/templates/providers.php:36
+#: nextend-facebook-connect-new/includes/provider.php:891
+msgid "Enabled"
+msgstr "Bekapcsolva"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:59
+msgid "Fixed redirect url for login"
+msgstr "Fix átirányítási link belépésnél"
+
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:72
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:93
+msgid "Use custom"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/global-settings.php:80
+msgid "Fixed redirect url for register"
+msgstr "Fix átirányítási link regisztrációnál"
+
+#: nextend-facebook-connect-new/admin/templates/header.php:14
+msgid "Docs"
+msgstr "Dokumentáció"
+
+#: nextend-facebook-connect-new/admin/templates/header.php:17
+msgid "Support"
+msgstr "Támogatás"
+
+#: nextend-facebook-connect-new/admin/templates/header.php:20
+#: nextend-facebook-connect-new/admin/templates/menu.php:12
+msgid "Pro Addon"
+msgstr "Pro Kiegészítő"
+
+#: nextend-facebook-connect-new/admin/templates/menu.php:6
+msgid "Providers"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/menu.php:8
+msgid "Global Settings"
+msgstr "Általános beállítások"
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:13
+msgid "Error"
+msgstr "Hiba"
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:14
+msgid ""
+"You don’t have sufficient permissions to install and activate plugins. "
+"Please contact your site’s administrator!"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:22
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:32
+#: nextend-facebook-connect-new/admin/templates/pro.php:34
+msgid "Activate Pro Addon"
+msgstr "Pro Addon aktiválása"
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:23
+msgid ""
+"Pro Addon is installed but not activated. To be able to use the Pro "
+"features, you need to activate it."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:37
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:215
+msgid "Deauthorize Pro Addon"
+msgstr "Pro kiegészítő deaktiválása"
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:48
+#: nextend-facebook-connect-new/admin/templates/pro.php:43
+msgid "Pro Addon is not installed"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:50
+msgid ""
+"To access the Pro features, you need to install and activate the Pro Addon."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:59
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:60
+#: nextend-facebook-connect-new/admin/templates/pro.php:47
+msgid "Install Pro Addon"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:94
+msgid "Activating..."
+msgstr "Aktiválás..."
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:126
+msgid "Authorize your Pro Addon"
+msgstr "Aktiváld a Pro Kiegészítődet"
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:127
+msgid ""
+"To be able to use the Pro features, you need to authorize Nextend Social "
+"Connect Pro Addon. You can do this by clicking on the Authorize button below "
+"then select the related purchase."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:132
+msgid "Authorize"
+msgstr "Aktiválás"
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:189
+msgid "License key"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:206
+msgid "Pro Addon is installed and activated"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro-addon.php:208
+msgid ""
+"You installed and activated the Pro Addon. If you don’t want to use it "
+"anymore, you can deauthorize using the button below."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:8
+msgid "Get Pro Addon to unlock more features"
+msgstr "Vásárold meg a Pro Kiegészítőt, hogy még több funkcióhoz juss"
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:9
+msgid ""
+"The features below are available in Nextend Social Login Pro Addon. Get it "
+"today and tweak the awesome settings."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:10
+msgid ""
+"If you already have a license, you can Authorize your Pro Addon. Otherwise "
+"you can purchase it using the button below."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:14
+msgid "Buy Pro Addon"
+msgstr "Vedd meg a Pro Kiegészítőt"
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:16
+msgid "Authorize Pro Addon"
+msgstr "Pro Kiegészítő aktiválása"
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:25
+msgid "Pro Addon is not activated"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/pro.php:26
+#: nextend-facebook-connect-new/admin/templates/pro.php:44
+msgid ""
+"To be able to use the Pro features, you need to install and activate the "
+"Nextend Social Connect Pro Addon."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:24
+msgid "Not Available"
+msgstr "Nem elérhető"
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:27
+msgid "Not Configured"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:30
+msgid "Not Tested"
+msgstr "Nincs Tesztelve"
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:39
+msgid "Legacy"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:51
+msgid "Upgrade Now"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:66
+msgid "Test to Enable"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:74
+#: nextend-facebook-connect-new/includes/provider.php:920
+msgid "Enable"
+msgstr "Bekapcsolás"
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:86
+#: nextend-facebook-connect-new/includes/provider.php:928
+msgid "Disable"
+msgstr "Kikapcsolás"
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:97
+msgid "Import"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:116
+msgid "Saving..."
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:117
+msgid "Saving failed"
+msgstr ""
+
+#: nextend-facebook-connect-new/admin/templates/providers.php:118
+msgid "Order Saved"
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:315
+#: nextend-facebook-connect-new/includes/provider.php:534
+#: nextend-facebook-connect-new/includes/provider.php:545
+msgid "Authentication successful"
+msgstr "Hitelesítés sikeres"
+
+#: nextend-facebook-connect-new/includes/provider.php:363
+#, php-format
+msgid ""
+"Your %s account is successfully linked with your account. Now you can sign "
+"in with %s easily."
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:367
+#, php-format
+msgid ""
+"This %s account is already linked with other account. Linking process failed!"
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:473
+msgid "Authentication error"
+msgstr "Hitelesítési hiba"
+
+#: nextend-facebook-connect-new/includes/provider.php:482
+msgid "Unlink successful."
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:751
+#: nextend-facebook-connect-new/includes/provider.php:758
+msgid "The test was successful"
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:798
+msgid "Authentication failed"
+msgstr "Hitelesítés sikertelen"
+
+#: nextend-facebook-connect-new/includes/provider.php:869
+msgid "Your configuration needs testing"
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:870
+msgid ""
+"Before you can start letting your users register with your app it needs to "
+"be tested. This test makes sure that no users will have troubles with the "
+"login and registration process. <br> If you see error message in the popup "
+"check the copied ID and secret or the app itself. Otherwise your settings "
+"are fine."
+msgstr ""
+"Mielőtt a felhasználók beléphetnének az oldaladra az appodat le kell "
+"tesztelni. Ez a teszt segít abban, hogy a felhasználók gond nélkül tudjanak "
+"belépni és regisztrálni az oldaladra.<br> Ha valamilyen hibaüzenetet látsz a "
+"felugró ablakban, nézd meg az appodat vagy a kimásolt hitelesítő adatokat. "
+"Ha nincs hibaüzenet, az azt jelenti, hogy minden rendben van."
+
+#: nextend-facebook-connect-new/includes/provider.php:875
+msgid "Test the Configuration"
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:876
+#: nextend-facebook-connect-new/includes/provider.php:913
+msgid "Please save your changes before testing."
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:884
+msgid "Works Fine"
+msgstr "Megfelelően Működik"
+
+#: nextend-facebook-connect-new/includes/provider.php:898
+#, php-format
+msgid ""
+"This provider is currently disabled, which means that users can’t register "
+"or login via their %s account."
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:901
+#, php-format
+msgid ""
+"This provider works fine, but you can test it again. If you don’t want to "
+"let users register or login with %s anymore you can disable it."
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:904
+#, php-format
+msgid ""
+"This provider is currently enabled, which means that users can register or "
+"login via their %s account."
+msgstr ""
+
+#: nextend-facebook-connect-new/includes/provider.php:912
+msgid "Test Again"
+msgstr "Teszteld Újra"
+
+#: nextend-facebook-connect-new/nextend-social-login.php:19
+#, php-format
+msgid ""
+"%5$s plugin (version: %1$s, required: %2$s or newer) is not compatible with "
+"the PRO addon (version: %3$s, required: %4$s or newer). Please upgrade to "
+"the latest version! PRO addon disabled."
+msgstr ""
+"%5$s  plugin (jelenlegi verzió %1$s, szükséges verzió: %2$s vagy újabb) nem "
+"kompatibilis a Pro Kiegészítővel (jelenlegi verzió: %3$s , szükséges verzió: "
+"%4$s vagy újabb). Kérlek frissítd a legújabb verzióra! A Pro Kiegészítő "
+"kikapcsolva."
+
+#: nextend-facebook-connect-new/nextend-social-login.php:245
+#, php-format
+msgid ""
+"%s took the place of Nextend Google Connect. You can delete Nextend Google "
+"Connect as it is not needed anymore."
+msgstr ""
+"%s átvette a Nextend Google Connect helyét. Letörölheted a Nextend Google "
+"Connect plguint, mivel már nincs rá szükség."
+
+#: nextend-facebook-connect-new/nextend-social-login.php:256
+#, php-format
+msgid ""
+"%s took the place of Nextend Twitter Connect. You can delete Nextend Twitter "
+"Connect as it is not needed anymore."
+msgstr ""
+"%s átvette a Nextend Twitter Connect helyét. Letörölheted a Nextend Twitter "
+"Connect plguint, mivel már nincs rá szükség."
+
+#: nextend-facebook-connect-new/nextend-social-login.php:349
+msgid "You have logged in successfully."
+msgstr ""
+
+#: nextend-facebook-connect-new/nextend-social-login.php:426
+msgid "Social Login"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:7
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:9
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:9
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you have created your %1$s App, head over to "
+"\"Settings\" and configure the given \"%2$s\" and \"%3$s\" according to your "
+"%1$s App."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:9
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:11
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:11
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:10
+#, php-format
+msgctxt "App creation"
+msgid "Create %s"
+msgstr "%s létrehozása"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:12
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:14
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:14
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:13
+#, php-format
+msgid "Navigate to %s"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:13
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:15
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:15
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:14
+#, php-format
+msgid "Log in with your %s credentials if you are not logged in"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:14
+msgid "Click on the \"Add a New App\" button"
+msgstr "Kattints az \"Add a New App\" gombra"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:15
+msgid "Fill \"Display Name\" and \"Contact Email\""
+msgstr ""
+"Töltsd ki a \"Display name\" mezőt az app nevével. A \"Contact Email\" "
+"mezőbe írd be az email címet, amin keresztül elérhetnek."
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:16
+msgid "Click on blue \"Create App ID\" button"
+msgstr "Kattints a kék \"Create App ID\" gombra"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:17
+msgid ""
+"Move your mouse over Facebook Login and click on the appearing \"Set Up\" "
+"button"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:18
+msgid "Choose Web"
+msgstr "Válaszd a \"Web\"-et"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:19
+#, php-format
+msgid "Fill \"Site URL\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"Írd be a weboldalad főoldalának címét a \"Site URL\" mezőbe. Valószínűleg ez "
+"lesz az: <b>%s</b>"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:20
+msgid "Click on \"Save\""
+msgstr "Kattints a \"Save\" gombra"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:21
+msgid "In the left sidebar, click on \"Facebook Login\""
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:22
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:24
+#, php-format
+msgid ""
+"Add the following URL to the \"Valid OAuth redirect URIs\" field: <b>%s</b>"
+msgstr ""
+"Tedd a következő linket az \"Valid OAuth redirect URIs\" mezőbe: <b>%s</b>"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:23
+msgid "Click on \"Save Changes\""
+msgstr "Kattints a \"Save Changes\"-re"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:24
+msgid "In the top of the left sidebar, click on \"Settings\""
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:25
+msgid ""
+"Here you can see your \"APP ID\" and you can see your \"App secret\" if you "
+"click on the \"Show\" button. These will be needed in plugin's settings."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:26
+msgid "Enter your domain name to the App Domains"
+msgstr "Írd be a domain neved az \"App Domains\" mezőbe"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:27
+msgid ""
+"Fill up the \"Privacy Policy URL\". Provide a publicly available and easily "
+"accessible privacy policy that explains what data you are collecting and how "
+"you will use that data."
+msgstr ""
+"Töltsd ki a \"Privacy Policy URL\" mezőt. A megadott link legyen publikus és "
+"tartalmazza az adatvédelmi irányelveket, amik elmagyarázzák, milyen "
+"információkat gyűjtesz és mihez kezdesz velük."
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:28
+msgid "Save your changes"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:29
+msgid ""
+"Your application is currently private, which means that only you can log in "
+"with it. In the left sidebar choose \"App Review\" and make your App public"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/getting-started.php:33
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:30
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:25
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:27
+#, php-format
+msgid "I am done setting up my %s"
+msgstr "Befejeztem a %s appom elkészítését"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:7
+msgid "Import Facebook configuration"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:8
+#: nextend-facebook-connect-new/providers/google/admin/import.php:8
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:8
+msgid "Be sure to read the following notices before you proceed."
+msgstr "Mielőtt tovább lépnél, olvasd el az alábbi figyelmeztetéseket."
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:10
+#: nextend-facebook-connect-new/providers/google/admin/import.php:10
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:10
+msgid "Important steps before the import"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:11
+#: nextend-facebook-connect-new/providers/google/admin/import.php:11
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:11
+msgid ""
+"Make sure that the redirect URI for your app is correct before proceeding."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:13
+#: nextend-facebook-connect-new/providers/google/admin/import.php:13
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:13
+#, php-format
+msgid "Visit %s."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:14
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:14
+msgid "Select your app."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:15
+msgid ""
+"Go to the Settings menu which you can find below the Facebook Login in the "
+"left menu."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:16
+#: nextend-facebook-connect-new/providers/google/admin/import.php:16
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:16
+#, php-format
+msgid "Make sure that the \"%1$s\" field contains %2$s"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:17
+#: nextend-facebook-connect-new/providers/google/admin/import.php:17
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:17
+msgid "Save your changes."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:20
+#: nextend-facebook-connect-new/providers/google/admin/import.php:20
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:20
+msgid "The following settings will be imported:"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:22
+#: nextend-facebook-connect-new/providers/google/admin/import.php:22
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:22
+msgid "Your old API configurations"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:23
+#: nextend-facebook-connect-new/providers/google/admin/import.php:23
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:23
+msgid "The user prefix you set"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:26
+#: nextend-facebook-connect-new/providers/google/admin/import.php:26
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:26
+msgid "Create a backup of the old settings"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:29
+#: nextend-facebook-connect-new/providers/google/admin/import.php:29
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:29
+msgid "Other changes"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:31
+#: nextend-facebook-connect-new/providers/google/admin/import.php:31
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:31
+msgid ""
+"The custom redirect URI is now handled globally for all providers, so it "
+"won't be imported from the previous version. Visit \"Nextend Social Login > "
+"Global settings\" to set the new redirect URIs."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:32
+#: nextend-facebook-connect-new/providers/google/admin/import.php:32
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:32
+msgid ""
+"The login button's layout will be changed to a new, more modern look. If you "
+"used any custom buttons that won't be imported."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:33
+#: nextend-facebook-connect-new/providers/google/admin/import.php:33
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:33
+msgid ""
+"The old version's PHP functions are not available anymore. This means if you "
+"used any custom codes where you used these old functions, you need to remove "
+"them."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:35
+#: nextend-facebook-connect-new/providers/google/admin/import.php:35
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:35
+msgid ""
+"After the importing process finishes, you will need to <b>test</b> your app "
+"and <b>enable</b> the provider. You can do both in the next screen."
+msgstr ""
+"Miután az importálási folyamat befejeződött, <b>le kell tesztelned</a> az "
+"appodat majd <b>engedélyezni</a> a providert. Mindkettőt meg tudod tenni a "
+"következő oldalon."
+
+#: nextend-facebook-connect-new/providers/facebook/admin/import.php:42
+#: nextend-facebook-connect-new/providers/google/admin/import.php:42
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:43
+msgid "Import Configuration"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:26
+msgid "App ID"
+msgstr "App ID"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:27
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:39
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:26
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:39
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:26
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:25
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:37
+msgid "Required"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:32
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:33
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:31
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:31
+#, php-format
+msgid ""
+"If you are not sure what is your %s, please head over to <a href=\"%s"
+"\">Getting Started</a>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:38
+msgid "App Secret"
+msgstr "App Secret"
+
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:52
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:51
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:50
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:49
+msgid "Other settings"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/admin/settings.php:57
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:56
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:55
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:54
+msgid "Username prefix on register"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/facebook.php:50
+msgid "Continue with <b>Facebook</b>"
+msgstr "Folytatás a <b>Facebookkal</b>"
+
+#: nextend-facebook-connect-new/providers/facebook/facebook.php:51
+msgid "Link account with <b>Facebook</b>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/facebook.php:52
+msgid "Unlink account from <b>Facebook</b>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/facebook/facebook.php:110
+#: nextend-facebook-connect-new/providers/google/google.php:72
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:73
+#: nextend-social-connect-pro-new/providers/linkedin/linkedin.php:69
+#, php-format
+msgid "The %s entered did not appear to be a valid. Please enter a valid %s."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:16
+msgid ""
+"If you don't have a project yet, you'll need to create one. You can do this "
+"by clicking on the blue \"Create project\" button on the right side"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:17
+msgid "Name your project and then click on the Create button"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:18
+msgid "Once you have a project, you'll end up in the dashboard."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:19
+msgid ""
+"Click on the \"Credentials\" in the left hand menu to create new API "
+"credentials"
+msgstr ""
+"Kattints a \"Credentials\" feliratra a bal oldali menüben hogy új API "
+"adatokat készíts"
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:20
+msgid ""
+"Go to the OAuth consent screen tab and enter a product name and provide the "
+"Privacy Policy URL, then click on the save button."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:21
+msgid ""
+"Go back to the Credentials tab and locate the small box at the middle. Click "
+"on the blue \"Create credentials\" button. Chose the \"OAuth client ID\" "
+"from the dropdown list."
+msgstr ""
+"Menj vissza a \"Credentials\" fülre és keresd meg a kis dobozt középen. "
+"Kattints a kék \"Create credentials\" gombra. Válaszd ki az \"OAuth client ID"
+"\"-t a lenyíló listából."
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:22
+msgid "Your application type should be \"Web application\""
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:23
+msgid "Name your application"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:25
+msgid "Click on the Create button"
+msgstr "Kattints a \"Create\" gombra"
+
+#: nextend-facebook-connect-new/providers/google/admin/getting-started.php:26
+msgid ""
+"A modal should pop up with your credentials. If that doesn't happen, go to "
+"the Credentials in the left hand menu and select your app by clicking on its "
+"name and you'll be able to copy-paste the Client ID and Client Secret from "
+"there."
+msgstr ""
+"Fel fog ugrani egy ablak a hitelesítő adataiddal. Ha ez nem történik meg, "
+"menj a \"Credentials\" fülre a bal oldali menüben és választ ki az appodat a "
+"nevére kattintva. Innen ki tudod másolni a Client ID-t és Client Secretet."
+
+#: nextend-facebook-connect-new/providers/google/admin/import.php:7
+msgid "Import Google configuration"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/import.php:14
+msgid "If you have more projects, select the one where your app is."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/admin/import.php:15
+msgid "Click on Credentials at the left-hand menu then select your app."
+msgstr ""
+"Kattints a \"Credentials\" feliratra a bal oldali menüben majd válaszd ki az "
+"appodat."
+
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:25
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:24
+msgid "Client ID"
+msgstr "Client ID"
+
+#: nextend-facebook-connect-new/providers/google/admin/settings.php:38
+#: nextend-social-connect-pro-new/providers/linkedin/admin/settings.php:36
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: nextend-facebook-connect-new/providers/google/google.php:39
+msgid "Continue with <b>Google</b>"
+msgstr "Folytatás a <b>Google-el</b>"
+
+#: nextend-facebook-connect-new/providers/google/google.php:40
+msgid "Link account with <b>Google</b>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/google/google.php:41
+msgid "Unlink account from <b>Google</b>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:16
+msgid "Click on the \"Create New App\" button"
+msgstr "Kattints a \"Create New App\" gombra"
+
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:17
+#, php-format
+msgid ""
+"Fill the name and description fields. Then enter your site's URL to the "
+"Website field: <b>%s</b>"
+msgstr ""
+"Írd be az appod nevét a \"name\" és a leírását a \"description\" mezőbe. "
+"Aztán írd be az oldalad címét a Website mezőbe: <b>%s</b>"
+
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:18
+#, php-format
+msgid "Add the following URL to the \"Callback URL\" field: <b>%s</b>"
+msgstr "Tedd a következő linket az \"Callback URL\" mezőbe: <b>%s</b>"
+
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:19
+msgid "Accept the Twitter Developer Agreement"
+msgstr "Fogadd el a Twitter Fejlesztői Megállapodást"
+
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:20
+msgid ""
+"Create your application by clicking on the Create your Twitter application "
+"button"
+msgstr ""
+"Hozd létre az alkalmazásodat a \"Create your Twitter application\" gombra "
+"kattintva"
+
+#: nextend-facebook-connect-new/providers/twitter/admin/getting-started.php:21
+msgid ""
+"Go to the Keys and Access Tokens tab and find the Consumer Key and Secret"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:7
+msgid "Import Twitter configuration"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/admin/import.php:15
+msgid "Go to the Settings tab."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:25
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: nextend-facebook-connect-new/providers/twitter/admin/settings.php:36
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:40
+msgid "Continue with <b>Twitter</b>"
+msgstr "Folytatás a <b>Twitterrel</b>"
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:41
+msgid "Link account with <b>Twitter</b>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:42
+msgid "Unlink account from <b>Twitter</b>"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:153
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:155
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:158
+#: nextend-social-connect-pro-new/class-provider-extension.php:142
+#: nextend-social-connect-pro-new/class-provider-extension.php:144
+#: nextend-social-connect-pro-new/class-provider-extension.php:147
+#: nextend-social-connect-pro-new/class-provider-extension.php:153
+#: nextend-social-connect-pro-new/class-provider-extension.php:166
+#: nextend-social-connect-pro-new/class-provider-extension.php:168
+#: nextend-social-connect-pro-new/class-provider-extension.php:171
+msgid "ERROR"
+msgstr "HIBA"
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:153
+#: nextend-social-connect-pro-new/class-provider-extension.php:166
+msgid "Please enter an email address."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:155
+#: nextend-social-connect-pro-new/class-provider-extension.php:168
+msgid "The email address isn&#8217;t correct."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:158
+#: nextend-social-connect-pro-new/class-provider-extension.php:171
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:167
+#: nextend-social-connect-pro-new/class-provider-extension.php:183
+msgid "Registration Form"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:167
+#: nextend-social-connect-pro-new/class-provider-extension.php:183
+msgid "Register For This Site!"
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:173
+#: nextend-social-connect-pro-new/class-provider-extension.php:197
+msgid "Email"
+msgstr "Email"
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:177
+#: nextend-social-connect-pro-new/class-provider-extension.php:202
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: nextend-facebook-connect-new/providers/twitter/twitter.php:181
+#: nextend-social-connect-pro-new/class-provider-extension.php:206
+msgid "Register"
+msgstr ""
+
+#: nextend-facebook-connect-new/widget.php:10
+#, php-format
+msgid "%s Buttons"
+msgstr "%s Gombok"
+
+#: nextend-facebook-connect-new/widget.php:22
+msgid "Title:"
+msgstr ""
+
+#: nextend-facebook-connect-new/widget.php:30
+msgid "Button style:"
+msgstr "Gomb stílus:"
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:78
+msgid "Social login is not allowed with this role!"
+msgstr ""
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:142
+msgid "Please enter a username."
+msgstr ""
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:144
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:147
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:153
+msgid "Sorry, that username is not allowed."
+msgstr ""
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:190
+msgid "Username"
+msgstr ""
+
+#: nextend-social-connect-pro-new/class-provider-extension.php:218
+msgid ""
+"This email is already registered, please login in to your account to link "
+"with Facebook."
+msgstr ""
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:8
+#, php-format
+msgid ""
+"To allow your visitors to log in with their %1$s account, first you must "
+"create a %1$s App. The following guide will help you through the %1$s App "
+"creation process. After you created your %1$s App, head over to \"Settings\" "
+"and configure the given \"%2$s\" and \"%3$s\" according to your %1$s App."
+msgstr ""
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:15
+msgid "Locate the yellow \"Create application\" button and click on it."
+msgstr ""
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:16
+msgid "Fill the fields marked with *"
+msgstr "Töltsd ki a csillaggal jelölt mezőket"
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:17
+#, php-format
+msgid "Fill \"Website URL\" with the url of your homepage, probably: <b>%s</b>"
+msgstr ""
+"Írd be a weboldalad főoldalának címét a \"Website  URL\" mezőbe. "
+"Valószínűleg ez lesz az: <b>%s</b>"
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:19
+msgid "Accept the Terms of use and hit Submit"
+msgstr ""
+"Fogadd el a Felhasználási Feltétleket és kattints a Beküldés (Submit) gombra"
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:20
+msgid "Find the necessary Authentication Keys under the Authentication menu"
+msgstr ""
+"A szükséges \"Authentication Keys\"-t az Authentication menüben találod"
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:21
+#, php-format
+msgid ""
+"Add the following URL to the \"Authorized Redirect URLs:\" field: <b>%s</b>"
+msgstr ""
+"Tedd a következő linket az \"Authorized Redirect URLs:\" mezőbe: <b>%s</b>"
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:22
+msgid ""
+"You probably want to enable the \"r_emailaddress\" under the Default "
+"Application Permissions"
+msgstr ""
+
+#: nextend-social-connect-pro-new/providers/linkedin/admin/getting-started.php:23
+msgid "Hit update to save the changes"
+msgstr ""
+
+#: nextend-social-connect-pro-new/providers/linkedin/linkedin.php:35
+msgid "Continue with <b>LinkedIn</b>"
+msgstr "Folytatás a <b>LinkedInnel</b>"
+
+#: nextend-social-connect-pro-new/providers/linkedin/linkedin.php:36
+msgid "Link account with <b>LinkedIn</b>"
+msgstr ""
+
+#: nextend-social-connect-pro-new/providers/linkedin/linkedin.php:37
+msgid "Unlink account from <b>LinkedIn</b>"
+msgstr ""
+
+#: nextend-social-connect-pro-new/template-parts/login-layout-above-separator.php:9
+#: nextend-social-connect-pro-new/template-parts/login-layout-below-separator.php:9
+msgid "OR"
+msgstr ""
+
+#: nextend-social-connect-pro-new/template-parts/woocommerce-edit-account-after.php:1
+#: nextend-social-connect-pro-new/template-parts/woocommerce-edit-account-before.php:1
+msgid "Social accounts"
+msgstr ""
+
+#~ msgctxt "App creation"
+#~ msgid "Create %"
+#~ msgstr "%s"
